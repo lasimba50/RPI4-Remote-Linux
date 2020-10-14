@@ -17,5 +17,8 @@
   -> On Window: Use the Remote Desktop Client
   -> On Linux: Open the Terminal and establish a connection via Terminal
     -> rdektop <IP of your Raspberry-Pi>
+7. Install a Desktop Enviroment
+  -> sudo apt install kde-full
+  #Note: You are able to install any Desktop you want. LXDE for example would be a much lighter variant of an desktop#
   
   
