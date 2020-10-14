@@ -19,4 +19,4 @@
 7. Establish the Remote-Desktop Session
   -> On Window: Use the Remote Desktop Client
   -> On Linux: Open the Terminal and establish a connection via Terminal
-    -> rdektop <IP of your Raspberry-Pi>
+    -> rdesktop <IP of your Raspberry-Pi>
