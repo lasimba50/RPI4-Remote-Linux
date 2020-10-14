@@ -1,0 +1,21 @@
+1. Establish a SSH-Connection
+  -> Download Putty and connect to your Rasberry-Pi
+2. Install the a Display Manager
+  -> sudo apt install lightdm
+3. Customize the Raspberry-Pi Config
+  -> sudo raspi-config
+    -> Go to "3 Boot Options"
+    -> Select "Desktop" or "Desktop Autologin"
+  -> After you selected the Boot Option select "finish"
+  -> The Raspberry-Pi will reboot and the SSH-Session will be closed
+  -> Establish a new SSH-Session
+4. Install XRDP-Server
+  -> sudo apt install xrdp
+5. Restart the Raspberry-Pi
+  -> sudo reboot
+6. Establish the Remote-Desktop Session
+  -> On Window: Use the Remote Desktop Client
+  -> On Linux: Open the Terminal and establish a connection via Terminal
+    -> rdektop <IP of your Raspberry-Pi>
+  
+  
